@@ -82,6 +82,7 @@ const App = ({ isServerInfo }) => {
       <Router>
         <Header style={styles.header}>
           <Logo />
+          <h1>NFTY</h1>
           <SearchCollections setInputValue={setInputValue}/>
           <Menu
             theme="light"
