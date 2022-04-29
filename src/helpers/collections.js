@@ -9,6 +9,12 @@ export const networkCollections = {
     },
     {
       image:
+        "https://ipfs.thirdweb.com/ipfs/QmTXrcsKsBxRcZ8J8c7MWU3pST6dzfzBrNJs3bWmLSBcUR/0.jpg",
+      name: "Stick-Man Ken",
+      addrs: "0x9407F1E3Be79615411Ca8DDc82c61A995fE1dC8d",
+    },
+    {
+      image:
         "https://ipfs.moralis.io:2053/ipfs/QmfLbpeVHxReWKNLaXTPcWiafi49eoAL4gRwMGuXtx2Eqe/images/14.png",
       name: "Pixel Show",
       addrs: "0xCA34404dD8Bd6537BE76F3A51B379F8949bD7973",
