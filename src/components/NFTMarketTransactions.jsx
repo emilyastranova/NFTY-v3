@@ -15,6 +15,7 @@ const styles = {
 function NFTMarketTransactions() {
   const { walletAddress } = useMoralisDapp();
   const { Moralis } = useMoralis();
+  
   const queryItemImages = useMoralisQuery("ItemImages");
   const fetchItemImages = JSON.parse(
     JSON.stringify(queryItemImages.data, [
@@ -24,7 +25,7 @@ function NFTMarketTransactions() {
       "image",
     ])
   );
-  const queryMarketItems = useMoralisQuery("MarketItems");
+  const queryMarketItems = useMoralisQuery("CreatedMarketItems");
   const fetchMarketItems = JSON.parse(
     JSON.stringify(queryMarketItems.data, [
       "updatedAt",

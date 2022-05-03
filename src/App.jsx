@@ -119,6 +119,9 @@ const App = ({ isServerInfo }) => {
             <Menu.Item key="transactions">
               <NavLink to="/Transactions">📑 Your Transactions</NavLink>
             </Menu.Item>
+            <Menu.Item>
+              <a href="https://thirdweb.com/dashboard">🎨 Add Collection</a>
+            </Menu.Item>
           </Menu>
           <div style={styles.headerRight}>
             <Chains />
