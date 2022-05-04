@@ -21,10 +21,12 @@ const Application = () => {
         </MoralisDappProvider>
       </MoralisProvider>
     );
-  else {
+    else {
     return (
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <QuickStart />
+        <MoralisProvider>
+          <QuickStart />
+        </MoralisProvider>
       </div>
     );
   }
